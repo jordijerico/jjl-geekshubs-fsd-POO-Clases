@@ -1,0 +1,45 @@
+.carAvatar{
+    height: 8em;
+    width: 8em;
+}
+body{
+    margin: 0;
+}
+#mainContainer{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#carsPanel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.clickCarDesign{
+    margin: 2em;
+    cursor:pointer;
+    transition: 0.4s;
+}
+.clickCarDesign:hover{
+    transition: 0.4s;
+    box-shadow: 0 0 5px black;
+}
+
+.metersDesign {
+    height: 8em;
+    color: black;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+#metersPanel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
